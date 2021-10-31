@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "IMDBifier",
+  "description": "Sick and tired of having to add individual credits to your IMDB pages? With the all new IMDBifier, simply upload a cvs file and have all of your credits added to the page. Simple, easy, free. Enjoy movie efficiency courtesy of this extension.",
+  "version": "2.0.0",
+  "permissions": [
+    "*://contribute.imdb.com/updates",
+    "tabs"
+  ],
+  "author": "Evan Vera",
+  "background":
+  {
+    "scripts": [
+      "backgroundScript.js"
+    ],
+    "persistent": true
+  },
+  "icons":
+  {
+    "16": "16icon.png",
+    "24": "24icon.png",
+    "32": "32icon.png",
+    "48": "48icon.png",
+    "256": "256icon.png"
+  },
+  "browser_action":
+  {
+    "default_title": "IMDBifier",
+    "default_icon": "256icon.png"
+  }
+}
